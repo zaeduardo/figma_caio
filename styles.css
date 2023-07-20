@@ -1,0 +1,329 @@
+:root {
+    --verde-fundo: #12eb2400;
+  }
+  
+  body {
+    background-image: url("/img/image\ 2\ \(1\).png");
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+ main{
+    width: 90vw;
+    height: 100vh;
+ }
+  
+ 
+  .img {
+    margin-left: 358px;
+    margin-top: 10px;
+  }
+  
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-top: 0%;
+  }
+  
+ 
+  .suaCasa {
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 150px;
+    margin-left: 18%;
+    
+  }
+  .melhoresPlantas {
+    color: #202020;
+    font-family: Elsie Swash Caps;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 18%;
+  }
+  
+  .texto {
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 18%;
+    margin-top: 37px;
+  }
+  
+    .InputAndButton{
+      display: flex;
+    }
+  
+  
+    .assine{
+      height: 79px;
+      width: 194px;
+      background-color: #F9CD4F;
+      border: none;
+      outline: none;
+      box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.096);
+      margin-left: -4px;
+  
+    }
+  
+    .assineLink{
+      text-decoration: none;
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 400;
+     
+    }
+  
+    .email {
+      width: 400px;
+      height: 75px;
+      margin-left: 18%;
+      box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.096);
+      border: none;
+      outline: none;
+      margin-top: 37px;
+    }
+    
+    .email::placeholder {
+      color: #202020;
+      font-family: Montserrat;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      background-image: url("img/mail.png");
+      background-repeat: no-repeat;
+      padding-left: 3em;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  
+  .itensMenu {
+    display: flex;
+    margin-left: 457px;
+  }
+  
+  .ItensLink {
+    margin-right: 3em;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  
+  
+  .manchaAmarela {
+    position: absolute;
+    top: 0;
+    right: 38%;
+    width: 200px;
+    z-index: -1; 
+  }
+ 
+
+  .Arvore{
+    position: absolute;
+    top: 0;
+    right: 20em;
+    width: 55em;
+    z-index: -1; 
+  }
+
+
+  .Planta{
+    width: 60%;
+    height: 440px;
+    background-color: white;
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.158);
+    margin-top: 220px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+   
+  }
+  .quadro_1{
+    margin-left: 2em;
+  }
+
+  .titulo_1{
+
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 58px;
+
+
+  }
+
+  .titulo_2{
+    color: #202020;
+    font-family: Elsie Swash Caps;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding-top: 12px;
+  }
+
+  .lista_3{
+    color: #202020;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;    
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+  
+
+
+  .itensLista3{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .elipse{
+    margin-right: 16px ;
+
+  }
+
+
+  .titulo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+  }
+
+  .t1{
+    color: #202020;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 22px;
+    margin-top: 2%;
+  }
+
+  .t2{
+    color: #202020;
+    text-align: center;
+    font-family: Elsie Swash Caps;
+    font-size: 82px;
+  }
+
+
+.cards{
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 10%;
+    margin-right: 10%;
+   
+    width: 80%;
+    
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 153px;
+}
+
+.card{
+    width: 379px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.158);
+    margin: 0.5%;
+    display: flex;
+
+}
+.card figure{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+
+}
+
+.img_1{
+  /* width: 200px;
+  height: auto;
+  float: left; */
+  width: 100%;
+  position: relative;
+  height: 100%;
+
+
+  
+}
+
+.tetxCard{
+  width: 29%;
+  margin-left: 10%;
+  margin-right: 6%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+
+.textoPlanta{
+  color: #202020;
+  font-family: Elsie Swash Caps;
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 27px;
+  padding-bottom: 8px;
+}
+
+.preco{
+  color: #202020;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 24px;
+
+}
+
+.compraLink{
+  color: #ffb700;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 46px;
+  text-decoration: none;
+}
+
+.compraSeta{
+  padding-left: 10px ;
+}
