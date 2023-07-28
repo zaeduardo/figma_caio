@@ -1,378 +1,660 @@
 :root {
-    --verde-fundo: #12eb2400;
-  }
-  
-  body {
-    background-image: url("/img/image\ 2\ \(1\).png");
-    width: 100vw;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
+--verde-fundo: #12eb2400;
 }
 
- main{
-    width: 90vw;
-    height: 100vh;
- }
-  
- 
-  .img {
-    margin-left: 358px;
-    margin-top: 10px;
-  }
-
-
-  .img:hover{
-    cursor: pointer;
-    width: 250px;
-    height: auto;
-    transition: 50ms;
-
-  }
-  
-  .cabecalho {
-    display: flex;
-    align-items: center;
-    width: 90%;
-    margin-top: 0%;
-  }
-  
- 
-  .suaCasa {
-    color: #202020;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 150px;
-    margin-left: 18%;
-    
-  }
-  .melhoresPlantas {
-    color: #202020;
-    font-family: Elsie Swash Caps;
-    font-size: 82px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    margin-left: 18%;
-  }
-  
-  .texto {
-    color: #202020;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin-left: 18%;
-    margin-top: 37px;
-  }
-  
-    .InputAndButton{
-      display: flex;
-    }
-    
-
-  
-    .assine{
-      height: 79px;
-      width: 194px;
-      background-color: #F9CD4F;
-      border: none;
-      outline: none;
-      box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.096);
-      margin-left: -4px;
-  
-    }
-
-    .assine{
-      cursor: pointer;
-      box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.096);
-    }
-  
-    .assineLink{
-      text-decoration: none;
-      color: #FFF;
-      text-align: center;
-      font-family: Montserrat;
-      font-size: 16px;
-      font-weight: 400;
-     
-    }
-  
-    .email {
-      width: 400px;
-      height: 75px;
-      margin-left: 18%;
-      box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.096);
-      border: none;
-      outline: none;
-      margin-top: 37px;
-    }
-
-    .email:hover {
-      width: 400px;
-      height: 75px;
-      margin-left: 18%;
-      box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.226);
-      border: none;
-      outline: none;
-      margin-top: 37px;
-
-    }
-    
-    .email::placeholder {
-      color: #202020;
-      font-family: Montserrat;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      background-image: url("img/mail.png");
-      background-repeat: no-repeat;
-      padding-left: 3em;
-      justify-content: center;
-      align-items: center;
-    }
-
-   
-  
-  .itensMenu {
-    display: flex;
-    margin-left: 457px;
-  }
-  
-  .ItensLink {
-    margin-right: 3em;
-    text-decoration: none;
-    font-family: 'Montserrat';
-    font-size: 16px;
-    font-weight: 500;
-    color: black;
-  }
-
-  .ItensLink:hover{
-
-    font-size: 20px;
-    color: black;
-
-  }
-  
-  
-  .manchaAmarela {
-    position: absolute;
-    top: 0;
-    right: 38%;
-    width: 200px;
-    z-index: -1; 
-  }
- 
-
-  .Arvore{
-    position: absolute;
-    top: 0;
-    right: 20em;
-    width: 55em;
-    z-index: -1; 
-  }
-
-
-  .Planta{
-    width: 60%;
-    height: 440px;
-    background-color: white;
-    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.158);
-    margin-top: 220px;
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-   
-  }
-  .quadro_1{
-    margin-left: 2em;
-  }
-
-  .titulo_1{
-
-    color: #202020;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 58px;
-
-
-  }
-
-  .titulo_2{
-    color: #202020;
-    font-family: Elsie Swash Caps;
-    font-size: 42px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    padding-top: 12px;
-  }
-
-  .lista_3{
-    color: #202020;
-    font-family: Montserrat;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-top: 18px;    
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
+body {
+background-image: url("/img/image\ 2\ \(1\).png");
+width: 100vw;
+height: auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+overflow-x: hidden;
 }
-  
+
+header {
+display: flex;
+align-items: center;
+width: 60%;
+padding-top: 10px;
+padding-left: 20%;
+padding-right: 20%;
+justify-content: space-between;
+padding-right: 0px;
+padding-left: 0px;
+}
+header img{
+margin: 0%
+}
+
+header img:hover{
+cursor: pointer;
+width: 250px;
+height: auto;
+transition: 50ms;
+}
+
+.itensMenu {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.ItensLink {
+display: flex;
+text-decoration: none;
+font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 500;
+color: black;
+margin: 0 10px; 
+}
+
+.ItensLink:hover {
+font-size: 20px;
+color: black;
+}
 
 
-  .itensLista3{
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+main{
+width: 90vw;
+height: 100vh;
+}
+.tituloPrincipal{
 
+}
+.tituloPrincipal h2 {
+color: #202020;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 150px;
+margin-left: 18%;
 
-  .elipse{
-    margin-right: 16px ;
+}
+.tituloPrincipal h1 {
+color: #202020;
+font-family: Elsie Swash Caps;
+font-size: 82px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin-left: 18%;
+}
 
-  }
+.tituloPrincipal p {
+color: #202020;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-left: 18%;
+margin-top: 37px;
+margin-bottom: 10%;
+}
 
+.InputAndButton{
+display: flex;
+width: 30%;
+height: 100%;
+margin-left: 18%;
+box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.096);
+margin-top: 37px;
+background-color: white;
+}
 
-  .titulo{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
+.InputAndButton figure{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+margin-left: 3%;
+margin-right: 3%;
+}
+.img_email{
+margin: auto;
+}
+.email {
+width: 400px;
+height: 70px;
+margin-left: 0;
+margin-top: 0;
+border: none;
+outline: none;
 
-  }
+}
 
-  .t1{
-    color: #202020;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 22px;
-    margin-top: 2%;
-  }
+.email::placeholder {
+color: #202020;
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+background-repeat: no-repeat;
+justify-content: center;
+align-items: center;
+}
 
-  .t2{
-    color: #202020;
-    text-align: center;
-    font-family: Elsie Swash Caps;
-    font-size: 82px;
-  }
+.assine{
+height: auto;
+height: 74px;
+background-color: #F9CD4F;
+border: none;
+outline: none;
+margin-left: -4px;
+cursor: pointer;
+}
 
+.assineLink{
+text-decoration: none;
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 1rem;
+font-weight: 400;
+
+}
+
+.manchaAmarela {
+position: absolute;
+top: 0;
+right: 38%;
+width: 200px;
+z-index: -1; 
+}
+
+.Arvore{
+position: absolute;
+top: 0;
+right: 20em;
+width: 55em;
+z-index: -1; 
+}
+
+.Planta{
+width: 60%;
+height: 440px;
+background-color: white;
+box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.158);
+margin-top: 220px;
+display: flex;
+margin-left: 20%;
+margin-right: 20%;
+
+}
+
+.quadro_1{
+margin-left: 2em;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.titulo_1{
+color: #202020;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/* padding-top: 58px; */
+}
+
+.titulo_2{
+color: #202020;
+font-family: Elsie Swash Caps;
+font-size: 42px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+/* padding-top: 12px; */
+}
+
+.lista_3{
+color: #202020;
+font-family: Montserrat;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+/* margin-top: 18px;     */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.itensLista3{
+/* padding-top: 30px; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.elipse{
+margin-top: 2px;
+margin-right: 16px ;
+}
+
+.titulo{    
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.t1{
+color: #202020;
+text-align: center;
+font-family: Montserrat;
+font-size: 22px;
+margin-top: 2%;
+}
+
+.t2{
+color: #202020;
+text-align: center;
+font-family: Elsie Swash Caps;
+font-size: 82px;
+}
 
 .cards{
-    background-color: rgba(0, 0, 0, 0);
-    margin-left: 10%;
-    margin-right: 10%;
-   
-    width: 80%;
-    
-    
-    
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 153px;
+background-color: rgba(0, 0, 0, 0);
+margin-left: 10%;
+margin-right: 10%;
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-bottom: 153px;
 }
 
 .card{
-    width: 379px;
-    height: 200px;
-    background-color: white;
-    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.158);
-    margin: 0.5%;
-    display: flex;
-
+width: 379px;
+height: 200px;
+background-color: white;
+box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.158);
+margin: 0.5%;
+display: flex;
 }
-
 
 .card:hover{
-  cursor: pointer;
-  width: 379px;
-  height: 200px;
-  background-color: white;
-  box-shadow: 0px 7px 5px 5px rgba(0, 0, 0, 0.244);
-  margin: 0.5%;
-  display: flex;
-
-    transition: 50ms;
-
+cursor: pointer;
+width: 389px;
+height: 210px;
+background-color: white;
+box-shadow: 0px 7px 5px 5px rgba(0, 0, 0, 0.244);
+margin: 0.5%;
+display: flex;
+transition: 50ms;
 }
 .card figure{
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-
+width: 50%;
+height: 100%;
+overflow: hidden;
 }
 
 .img_1{
-  /* width: 200px;
-  height: auto;
-  float: left; */
-  width: 100%;
-  position: relative;
-  height: 100%;
-
-
-  
+width: 100%;
+position: relative;
+height: 100%;
 }
 
 .tetxCard{
-  width: 29%;
-  margin-left: 10%;
-  margin-right: 6%;
-  display: flex;
-  flex-direction: column;
- 
+width: 29%;
+margin-left: 10%;
+margin-right: 6%;
+display: flex;
+flex-direction: column;
 }
 
-
 .textoPlanta{
-  color: #202020;
-  font-family: Elsie Swash Caps;
-  font-size: 32px;
-  font-weight: 900;
-  padding-top: 27px;
-  padding-bottom: 8px;
+color: #202020;
+font-family: Elsie Swash Caps;
+font-size: 32px;
+font-weight: 900;
+padding-top: 27px;
+padding-bottom: 8px;
 }
 
 .preco{
-  color: #202020;
+color: #202020;
 font-family: Montserrat;
 font-size: 16px;
 font-weight: 400;
 padding-bottom: 24px;
-
 }
 
-
 .compraLink{
-  color: #ffb700;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 400;
-  padding-bottom: 46px;
-  text-decoration: none;
+color: #ffb700;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 46px;
+text-decoration: none;
 }
 
 .compraSeta{
-  padding-left: 10px ;
+padding-left: 10px ;
+}
+
+@media screen and (max-width: 1024px) {
+
+body {
+background-image: url("/img/image\ 2\ \(1\).png");
+width: 100vw;
+height: auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+overflow-x: hidden;
+background-color: rgb(241, 238, 238);
+}
+
+header {
+display: flex;
+align-items: center;
+width: 100%;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.itensMenu{
+display: flex;
+padding-top: 10%;
+width: 100%;
+justify-content: space-around;
+}
+
+.ItensLink{
+margin-left: 0px;
+font-weight: 800;
+padding: 2px;
+}
+
+.ItensLink:hover{
+font-size: 16px;
+}
+
+.tituloPrincipal p, .tituloPrincipal h1,  .tituloPrincipal h2{
+margin-left: 0px;
+padding-left: 0px;
+}
+.InputAndButton{
+margin-left: 5%;
+margin-right: 5%; 
+margin: 0px;
+height: 100%;
+width: 90%;
+padding: 0.5rem;
+}
+
+.InputAndButton figure{
+display: none;
+height: 100%;  
+width: 5%;
+}
+
+.email{
+width: 100%;
+height: 100%
+
+}
+.email::placeholder{
+text-align: center;
+
+}
+.assine{
+height: 100%;  
+width: 20%;
+}
+.assine a{
+font-size: x-small;
+}  
+
+.Arvore{
+display: none;
+}
+
+.manchaAmarela{
+display: none;
+}
+
+.Planta{
+margin-left: 0px;
+width: 98%;
+height: 30% ; 
+margin-top: 10%;
+
+}
+
+.box_planta_img{
+width: 50%;
+height: 100%;
+}
+
+.img_folha{
+height: 100%;
+width: 100%; 
+}
+
+.tituloPrincipal h2{
+margin-top: 20%;
+}
+
+.quadro_1{
+display: flex;
+align-items: flex-start;
+flex-direction: column;
+justify-content: space-around;
+margin-left: 10%;
+}
+
+.titulo_1{
+color: #000000;
+font-family: Montserrat;
+font-size: 90%;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.titulo_2{
+color: #202020;
+font-family: Elsie Swash Caps;
+font-size: 90%;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+
+}
+
+.lista_3{
+color: #202020;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;  
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.itensLista3{
+justify-content: flex-start;
+display: flex;
+align-items: center;
+}
+
+.itensLista3 img {
+width: auto;
+height: 50%;
+}
+
+.elipse{
+display: flex;
+}
+
+.t1{
+margin-top: 10%;
+}
+
+.t2{
+margin-bottom: 10%;
+}
+
+.cards{
+background-color: rgba(0, 0, 0, 0);
+margin-left: 1%;
+margin-right: 1%;
+width: 98%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding-bottom: 15%;
+}
+
+.card{
+width: 90%;
+height: 60%;
+background-color: white;
+box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.158);
+margin: 0.5%;
+display: flex;
+margin-bottom: 1%;
+
+}
+.card:hover{
+width: 90%;
+height: 100%;
+margin: 1%;
+z-index: 10;
+}
+
+.tetxCard{
+display: flex;
+align-items: flex-start;
+justify-content: space-evenly;
+}
+
+.textoPlanta{
+color: #202020;
+font-family: Elsie Swash Caps;
+font-size: 90%;
+font-weight: 900;
+padding-bottom: 0px;
+padding-top: 0px;
+}
+
+.preco{
+color: #202020;
+font-family: Montserrat;
+font-size: 90%;
+font-weight: 500;
+padding-bottom: 0px;
+}
+
+.compraLink{
+color: #ffb700;
+font-family: Montserrat;
+font-size: 80%;
+font-weight: 400;
+text-decoration: none;
+padding-bottom: 0px;
+}
+
+.compraSeta{
+display: none;
+}
+
+}
+
+@media screen and (max-width: 349px){
+
+body{
+background-color: white;
+}
+.itensMenu{
+display: flex;
+}
+.ItensLink{
+font-size: 70%;
+margin-left: 0px;
+font-weight: 800;
+border: none;
+padding: 1px;
+}
+
+.InputAndButton{
+margin-left: 5%;
+margin-right: 5%; 
+margin: 0px;
+height: 100%;
+width: 90%;
+padding: 0.5rem;
+
+}
+.InputAndButton figure{
+height: 100%;  
+width: 5%;
+}
+.email{
+width: 100%;
+height: 100%
+}
+
+.email::placeholder{
+font-size: 90%;
+text-align: center;
+}
+
+.assine{
+display: none;
+}
+
+.elipse{
+display: none;
+}
+
+.itensLista3{
+margin-top: 5px;
+}
+
+.itensLista3:hover{
+margin-top: 0px;
+padding: 5px;
+background-color: aliceblue;
+}
+
+.titulo_1{
+font-size: 80%;
+}
+
+.tituloPrincipal p, .tituloPrincipal h1,  .tituloPrincipal h2{
+margin-left: 0px;
+}
+.card{
+margin-left: 1%;
+margin-right: 1%;
+width: 98%;
+height: 100px;
+margin-bottom: 2%;
+}
+
+.card:hover{
+width: 98%;
+height: 110px;
+margin: 1%;
+z-index: 10;
+}
+
 }
